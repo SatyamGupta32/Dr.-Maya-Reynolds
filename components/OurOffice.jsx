@@ -48,27 +48,19 @@ export default function OurOffice() {
         </div>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="relative h-64 rounded-xl overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="relative h-64 md:h-80 rounded-xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80"
-              alt="Comfortable therapy office interior with sofa"
+              src="/images/office1.jpeg"
+              alt="Dr. Maya Reynolds therapy office in Santa Monica - comfortable therapy space with natural lighting"
               fill
               className="object-cover"
             />
           </div>
-          <div className="relative h-64 rounded-xl overflow-hidden">
+          <div className="relative h-64 md:h-80 rounded-xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
-              alt="Warm interior with natural lighting"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="relative h-64 rounded-xl overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=800&q=80"
-              alt="Calm and peaceful therapy room"
+              src="/images/office2.jpeg"
+              alt="Warm and calm therapy room at Dr. Maya Reynolds office in Santa Monica"
               fill
               className="object-cover"
             />

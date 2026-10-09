@@ -8,8 +8,8 @@ export default function AboutMaya() {
           {/* Left - Image */}
           <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
-              alt="Professional portrait in warm, calm setting"
+              src="/images/Dr. Maya Reynolds.png"
+              alt="Dr. Maya Reynolds, PsyD - Licensed Clinical Psychologist in Santa Monica"
               fill
               className="object-cover"
             />
